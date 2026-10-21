@@ -19,6 +19,7 @@ The `acceptance` skill is generated from the default branch of [lobehub/acceptan
 
 - **React and TSX**: Before editing components, component state, render boundaries, or memoization, read the `react` skill. It owns component selection, styling, state locality, and render-performance rules.
 - **Heavy domain features**: When splitting a fat Viewer/Page into reusable pieces (page vs portal vs share vs micro-app), read the `compose-atoms` skill. Split on mountable capabilities, not visual sections, and do not hide unused work behind `readOnly` / `mode` flags.
+- **Security boundaries**: Before changing API routes, authentication or resource access, callbacks or jobs, outbound URLs, local/device execution, or untrusted content and files, read the `security-boundaries` skill alongside the relevant implementation skill.
 
 ## Code Ownership
 
